@@ -1,0 +1,9 @@
+$color--gray: gray;
+$color--black: black;
+
+body {
+  background-color: $color--gray;
+  p {
+    color: $color--black;
+  }
+}
