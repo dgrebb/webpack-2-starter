@@ -22,6 +22,13 @@ module.exports = {
     ]
   },
 
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    stats: 'minimal',
+    open: true
+  },
+
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Webpack Starter',
